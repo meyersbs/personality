@@ -186,7 +186,7 @@ def predict_split(train_size):
             test_pred = predict(status[0], text_type='str', data=AGGREGATE_TESTING)
             predictions[i] = [status[0], pred_to_labels(train_pred), pred_to_labels(test_pred)]
 
-    sys.exit()
+    #sys.exit()
     return predictions
 
 def pred_to_labels(pred):
